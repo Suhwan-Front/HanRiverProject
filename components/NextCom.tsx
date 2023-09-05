@@ -1,7 +1,7 @@
 const NextCom = () => {
     return(
         <div className="mt-2 bg-white">
-            <div>123</div>
+            <div className="mb-28">서브 컨텐츠</div>
         </div>
     )
 }
