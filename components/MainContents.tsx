@@ -1,3 +1,5 @@
+import Map from "./Map"
+
 const MainContents = () => {
     return(
         <div className="flex flex-col items-center mt-2 bg-white">
@@ -12,6 +14,7 @@ const MainContents = () => {
                     </div>
                 </label>
             </div>
+            <Map />
             <div>
                 메인 컨텐츠
             </div>
